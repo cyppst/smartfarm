@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('smartfarm.db')
+conn = sqlite3.connect('include/smartfarm.db')
 
 conn.execute('''CREATE TABLE CM
          (ID			INTEGER PRIMARY KEY AUTOINCREMENT,

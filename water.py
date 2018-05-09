@@ -6,7 +6,7 @@ import time
 import os
 from datetime import datetime
 import sqlite3
-conn = sqlite3.connect('include/smartfarm.db')
+conn = sqlite3.connect('/var/www/html/include/smartfarm.db')
 
 FLOW_SENSOR = 22
 

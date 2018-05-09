@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 import sqlite3
 
-conn = sqlite3.connect('include/smartfarm.db')
+conn = sqlite3.connect('/var/www/html/include/smartfarm.db')
 
 GPIO.setmode(GPIO.BCM)  # Set GPIO pin numbering
 
