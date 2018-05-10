@@ -27,6 +27,10 @@
                     <a href="data_litre.php">
                         <i class="fa fa-table"></i> ข้อมูล Litre </a>
                 </li>
+                <li class="<?= ($current_page == 'crontab') ? 'active' : ''; ?>">
+                    <a href="crontab.php">
+                        <i class="fa fa-table"></i> Feed Set </a>
+                </li>
                 <li>
                     <a href="?logout">
                         <i class="fa fa-sign-out"></i> ออกจากระบบ </a>
