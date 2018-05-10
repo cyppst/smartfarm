@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="607c9526-8b06-429e-bc79-f491bc4865f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/crontab.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/crontab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_feed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed.py" beforeDir="false" afterPath="$PROJECT_DIR$/feed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/layout.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,20 +35,29 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="crontab.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crontab.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crontab.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+            <state relative-caret-position="342">
+              <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="data_feed.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_feed.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/layout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="471">
+              <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -55,8 +65,17 @@
       <file leaf-file-name="feed.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/insert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="65" selection-start-line="9" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -168,10 +187,11 @@
         <option value="$PROJECT_DIR$/../New folder/data2.php" />
         <option value="$PROJECT_DIR$/mode2time.py" />
         <option value="$PROJECT_DIR$/create_table.py" />
-        <option value="$PROJECT_DIR$/feed.py" />
         <option value="$PROJECT_DIR$/include/auth.php" />
-        <option value="$PROJECT_DIR$/include/layout.php" />
         <option value="$PROJECT_DIR$/crontab.php" />
+        <option value="$PROJECT_DIR$/feed.py" />
+        <option value="$PROJECT_DIR$/data_feed.php" />
+        <option value="$PROJECT_DIR$/include/layout.php" />
       </list>
     </option>
   </component>
@@ -229,13 +249,14 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\laragon\www\login" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\smartfarm" />
       <recent name="C:\laragon\www\smartfarm\include" />
       <recent name="C:\laragon\www\login\include" />
-      <recent name="C:\laragon\www\login" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\www\login" />
     </key>
   </component>
@@ -268,12 +289,12 @@
       <updated>1525799957350</updated>
       <workItem from="1525799958855" duration="15229000" />
       <workItem from="1525901108263" duration="764000" />
-      <workItem from="1525918219023" duration="6431000" />
+      <workItem from="1525918219023" duration="8423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51392000" />
+    <option name="totallyTimeSpent" value="53384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1602" height="873" extended-state="6" />
@@ -311,8 +332,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database.php" />
-    <entry file="file://$PROJECT_DIR$/dashboard3.php" />
     <entry file="file://$PROJECT_DIR$/json.php" />
     <entry file="file://$PROJECT_DIR$/data1.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,24 +506,38 @@
         <state relative-caret-position="-495" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crontab.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="65" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/feed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crontab.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+        <state relative-caret-position="471">
+          <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
         </state>
       </provider>
     </entry>

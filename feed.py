@@ -17,10 +17,12 @@ GPIO.output(27, GPIO.HIGH)
 time.sleep(2)
 GPIO.cleanup()
 
+
 conn = sqlite3.connect('/var/www/html/include/smartfarm.db')
 DATETIME = datetime.now().strftime('%Y/%m/%d %H:%M:%S')
 cursor = conn.cursor()
-cursor.execute("insert into FEED (DATETIME) values (?)", (DATETIME))
+cursor.execute("INSERT INTO FEED (DATETIME) VALUES  (?)",(DATETIME,))
+
 conn.commit()
 conn.close()
 

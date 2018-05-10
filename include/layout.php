@@ -27,9 +27,13 @@
                     <a href="data_litre.php">
                         <i class="fa fa-table"></i> ข้อมูล Litre </a>
                 </li>
+                <li class="<?= ($current_page == 'feed') ? 'active' : ''; ?>">
+                    <a href="data_feed.php">
+                        <i class="fa fa-table"></i> ข้อมูลการให้อาหาร </a>
+                </li>
                 <li class="<?= ($current_page == 'crontab') ? 'active' : ''; ?>">
                     <a href="crontab.php">
-                        <i class="fa fa-table"></i> Feed Set </a>
+                        <i class="fa fa-table"></i> ตั้งค่าเวลาการให้อาหาร </a>
                 </li>
                 <li>
                     <a href="?logout">
